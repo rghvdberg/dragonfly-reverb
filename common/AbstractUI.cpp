@@ -15,12 +15,10 @@
  */
 
 #include "AbstractUI.hpp"
-#include "NotoSans_Regular.ttf.hpp"
 
 DragonflyReverbAbstractUI::DragonflyReverbAbstractUI(uint width, uint height, Param* params, const char* knobData, uint knobWidth, uint knobHeight)
   : UI (width, height) {
-    NanoVG::FontId font  = nanoText.createFontFromMemory("notosans",
-      font_notosans::notosans_ttf, font_notosans::notosans_ttf_size, false);
+    NanoVG::FontId font = nanoText.createFontFromFile("noto-sans","/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf");
     nanoText.fontFaceId(font);
     this->params = params;
     this->knobImage = Image(knobData, knobWidth, knobHeight);

@@ -22,8 +22,7 @@ FILES_UI  = \
 	DSP.cpp \
 	../../common/AbstractUI.cpp \
 	../../common/LabelledKnob.cpp \
-	../../common/Spectrogram.cpp \
-	../../common/NotoSans_Regular.ttf.cpp
+	../../common/Spectrogram.cpp
 
 # --------------------------------------------------------------
 # Do some magic

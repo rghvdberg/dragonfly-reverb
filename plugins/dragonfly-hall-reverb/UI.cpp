@@ -21,7 +21,6 @@
 #include "UI.hpp"
 #include "Artwork.hpp"
 #include "DistrhoPluginInfo.h"
-#include "NotoSans_Regular.ttf.hpp"
 #include <array>
 #include <vector>
 #include <math.h>
